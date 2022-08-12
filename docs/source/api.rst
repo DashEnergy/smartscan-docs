@@ -46,7 +46,7 @@ Upload document
             url = "https://domain.name/upload"
             payload={'Metadata': '{"org_name":"Company Name.","caller_app":"Bid Engine","user_id":"john-2","file_name":"johnd.pdf","file_type":"ocr"}'}
             files=[
-                ('file',('MP2_Energy_Template_01.pdf',open('/path/to/your/file/sample_doc.pdf','rb'),'application/pdf'))
+                ('file',('sample_doc.pdf',open('/path/to/your/file/sample_doc.pdf','rb'),'application/pdf'))
             ]
             headers = {
                 'x-api-key': 'token'
