@@ -69,7 +69,7 @@ Retrieve results based on document id
 
 .. http:get:: /get_output
 
-    Retrieve a list of all the projects for the current logged in user.
+    Get output based on <document_id>.
 
     **Example request**:
 
