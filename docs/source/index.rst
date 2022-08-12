@@ -1,5 +1,5 @@
 Welcome to SmartScan's documentation!
-===================================
+=====================================
 
 **SmartScan** is a private API for parsing documents.
 It pulls the document and returns important information from this document.

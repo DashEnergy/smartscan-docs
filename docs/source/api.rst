@@ -1,5 +1,5 @@
 API Reference
-======
+=============
 
 .. contents:: Table of contents
    :local:
