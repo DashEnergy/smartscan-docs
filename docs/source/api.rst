@@ -1,4 +1,4 @@
-API v1
+API Reference
 ======
 
 .. contents:: Table of contents
@@ -6,26 +6,20 @@ API v1
    :backlinks: none
    :depth: 3
 
+
 Authentication
---------------
+~~~~~~~~~~~~~~
 
 Requests to the SmartScan public API are for private usage only.
 All endpoints require authentication.
 
-
-Token
-~~~~~
-
-In order to be able to use this API you have to request API token.
+In order to be able to use this API you have to request API **token**.
 
 
 
 API Methods
---------------
+~~~~~~~~~~~
 
-
-Send document
-~~~~~~~~~~~~~~~
 
 Upload document
 +++++++++++++++
@@ -69,10 +63,6 @@ Upload document
             "document_id": "<document_id>.pdf"
         }
 
-
-
-Retrieve results
-~~~~~~~~~~~~~~~~
 
 Retrieve results based on document id
 +++++++++++++++++++++++++++++++++++++
