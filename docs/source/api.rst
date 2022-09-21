@@ -37,14 +37,14 @@ Upload document
             $ curl --location --request POST 'https://domain.name/upload' \
               --header 'x-api-key: key_token' \
               --form 'file=@"/path/to/your/file/sample_doc.pdf"' \
-              --form 'Metadata="{\"org_name\":\"Company Name.\",\"caller_app\":\"Bid Engine\",\"user_id\":\"john-2\",\"file_name\":\"johnd.pdf\",\"file_type\":\"ocr\"}"'
+              --form 'Metadata="{\"org_name\":\"Company Name.\",\"caller_app\":\"Bid Engine\",\"user_id\":\"john-2\",\"file_name\":\"johnd.pdf\",\"doc_type\":\"doc_type\",\"supplier_name\":\"xyz_name\"}"'
 
         .. code-tab:: python
 
             import requests
             import json
             url = "https://domain.name/upload"
-            payload={'Metadata': '{"org_name":"Company Name.","caller_app":"Bid Engine","user_id":"john-2","file_name":"johnd.pdf","file_type":"ocr"}'}
+            payload={'Metadata': '{"org_name":"Company Name.","caller_app":"Bid Engine","user_id":"john-2","file_name":"johnd.pdf","doc_type":"doc_type","supplier_name":"xyz_name"}'}
             files=[
                 ('file',('sample_doc.pdf',open('/path/to/your/file/sample_doc.pdf','rb'),'application/pdf'))
             ]
