@@ -54,6 +54,8 @@ Upload document
             response = requests.request("POST", url, headers=headers, data=payload, files=files)
             print(response.json())
 
+    **NOTE**: Please request **"doc_type"** and **"supplier_name"** supported values.
+
     **Example response**:
 
     .. sourcecode:: json
